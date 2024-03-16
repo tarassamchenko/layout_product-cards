@@ -1,0 +1,130 @@
+.card {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.card__img {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+.card__title {
+  color: #060b35;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin-bottom: 16px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__rating, .card__price {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.card__rating {
+  color: #060b35;
+  margin-bottom: 24px;
+}
+
+.card__price {
+  justify-content: space-between;
+  margin-top: 24px;
+  display: flex;
+}
+
+.card__price-text {
+  color: #616070;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__price-value {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__buy-button {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 16px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__buy-button:hover {
+  color: #00acdc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.stars {
+  list-style-type: none;
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars--1 :nth-child(-n+1), .stars--2 :nth-child(-n+2), .stars--3 :nth-child(-n+3), .stars--4 :nth-child(-n+4), .stars--5 :nth-child(-n+5) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
